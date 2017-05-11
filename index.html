@@ -3,18 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="css/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
 </head> 
 <body>
    
    <picture>
-       <source media="(min-width:1201px)" srcset="img/Landscape.jpg">
-       <source media="(max-width:1200px)" srcset="img/dawn.png">
-       <source media="(max-width:768px)" srcset="img/dawn.png">
-       <source media="(min-width:320px)" srcset="img/maxresdefault.jpg">
-       
-       <img src="img/Landscape.jpg">
+           <source media="(min-width:800px)" srcset="img/Landscape.jpg">
+           <source media="(min-width:480px)" srcset="img/dawn.png">
+           <source media="(min-width:320px)" srcset="img/maxresdefault.jpg">
+           <img src="img/midnight-conversation_861064.jpg">
+   </picture>
+   
+   <picture class="gatos">
+      <source media="(min-width:800px)" srcset="img/kitten-medium.png">
+      <source media="(min-width:480px)" srcset="img/kitten-large.png">
+      <source media="(min-width:320px)" srcset="img/kitten-small.png">
+      <img src="img/kitten-small.png">
    </picture>
     
 </body>
